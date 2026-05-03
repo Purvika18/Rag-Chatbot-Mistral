@@ -125,4 +125,13 @@ This will start the Quart server, typically at `http://0.0.0.0:3000`.
 
 Feel free to fork the repository, make improvements, and submit a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
+## My Contributions
+
+This project was built collaboratively. My specific contributions:
+
+- Designed and implemented the **retrieval pipeline** — document chunking, embedding generation, and FAISS-based similarity search
+- Integrated **Mistral LLM via Ollama** for response generation with retrieved context
+- Built the **server backend** using Quart — handling query routing and RAG pipeline orchestration
+- Wrote the project **README and documentation**
+- Debugged and resolved model loading and context injection issues during development
 
